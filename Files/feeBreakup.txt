@@ -1,0 +1,5 @@
+TuitionFee 50% 0
+HostelRent 20% 0
+ServiceCharge 10% 0
+MessFee 20% 0
+
