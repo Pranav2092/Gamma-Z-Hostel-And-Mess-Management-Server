@@ -19,6 +19,12 @@ done < "$base_dir/Files/studentDetails.txt"
 # Add alias for permit
 echo "alias permit='$base_dir/Permit.sh'" >> ~/.bashrc
 
+#Add alias for feeDefaulter
+for hostel in GarnetA GarnetB Agate Opal;
+do
+    echo "alias feeDefaulter='$base_dir/GammaZHostelAndMessManagement/$hostel/feeDefaulter.sh'" >> ~/.bashrc
+done
+
 # Change permissions for required scripts
 chmod 760 GenStudent.sh Permit.sh FeeBreakUp.sh
 
