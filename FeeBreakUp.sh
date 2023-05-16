@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Make .bashrc for each user
-#user="~"
+user="~"
 amount=100000
 while read -ra line; do
     studentname="${line[0]}"
